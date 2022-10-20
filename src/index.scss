@@ -1,0 +1,13 @@
+body {
+    background-color: gold;
+}
+
+.btn {
+    background-color: tomato;
+    padding: 1rem;
+}
+.btn-hover {
+    &:hover {
+        background-color: blue;
+    }
+}
