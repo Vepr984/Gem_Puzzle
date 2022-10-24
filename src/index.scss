@@ -1,13 +1,45 @@
-body {
-    background-color: gold;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.field{
+    background-color: rgb(238, 242, 246);
+    border: 2px solid rgb(49, 20, 212);
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 80vmin;
+    width: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    justify-content:space-around;
+    align-items: center;
 }
 
-.btn {
-    background-color: tomato;
-    padding: 1rem;
+.cell {
+    background-color: rgba(101, 109, 221, 0.258);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(201, 27, 27, 0.464) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 19vmin;
+    width: 19vmin;
 }
-.btn-hover {
-    &:hover {
-        background-color: blue;
-    }
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 5vmin;
+    font-weight: bold;
+    color: rgba(38, 4, 236, 0.568);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
